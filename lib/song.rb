@@ -37,7 +37,7 @@ class Song
       @unique_artists << artist
       unless @unique_artists.include?(artist)
     end
-    @artists
+    @unique_artists
   end
   
 end
