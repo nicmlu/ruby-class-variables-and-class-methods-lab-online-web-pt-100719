@@ -21,13 +21,12 @@ class Song
   end
   
   def self.genres
-    @unique_genres = []
+    unique_genres = []
     
     @@genres.map do |genre|
-      @unique_genres << genre
-      unless @unique_genres.include?(genre)
+      unique_genres.push(genre) unless unique_genres.include?(genre)
     end
-    @unqiue_genres
+    unqiue_genres
   end
   
   def self.artists
