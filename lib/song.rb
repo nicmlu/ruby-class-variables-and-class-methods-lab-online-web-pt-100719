@@ -26,7 +26,7 @@ class Song
     @@genres.map do |genre|
       unique_genres.push(genre) unless unique_genres.include?(genre)
     end
-    unqiue_genres
+    unique_genres
   end
   
   def self.artists
