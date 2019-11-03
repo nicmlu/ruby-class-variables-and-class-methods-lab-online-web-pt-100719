@@ -30,13 +30,13 @@ class Song
   #   @unqiue_genres
   # end
   
-  # def self.artists
-  #   @unique_artists = []
+  def self.artists
+    @unique_artists = []
     
-  #   @@artists.map do |artist| 
-  #     @unique_artists << artist
-  #     unless @unique_artists.include?(artist)
-  #   end
-  #   @unique_artists
-  # end
+    @@artists.map do |artist| 
+      @unique_artists << artist
+      unless @unique_artists.include?(artist)
+    end
+    @unique_artists
+  end
 end
