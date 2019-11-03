@@ -36,7 +36,6 @@ class Song
     @@artists.map do |artist| 
       unique_artists << artist
       unless unique_artists.include?(artist)
-      binding.pry
       end
       unique_artists
     end
