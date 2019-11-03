@@ -16,9 +16,9 @@ class Song
     @@genres.push(genre) 
   end
 
-  # def self.count
-  #   @@count
-  # end
+  def self.count
+    @@count
+  end
   
   # def self.genres
   #   @unique_genres = []
