@@ -39,5 +39,4 @@ class Song
     end
     @unique_artists
   end
-  
 end
