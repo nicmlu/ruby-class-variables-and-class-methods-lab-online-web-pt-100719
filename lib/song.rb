@@ -35,7 +35,7 @@ class Song
     
     @@artists.map do |artist| 
       unique_artists << artist
-      unless @unique_artists.include?(artist)
+      unless unique_artists.include?(artist)
       end
     end
     @unique_artists
