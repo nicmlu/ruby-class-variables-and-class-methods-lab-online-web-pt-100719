@@ -38,6 +38,6 @@ class Song
       unless unique_artists.include?(artist)
       end
     end
-    @unique_artists
+    unique_artists
   end
 end
